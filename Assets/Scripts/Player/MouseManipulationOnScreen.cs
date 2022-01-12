@@ -16,7 +16,7 @@ public class MouseManipulationOnScreen : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             Vector3 mouseWorldPosition = GetMousePositionInWorldCoordinate();
-            PlayerMovement.singleton.SetNewTarget(mouseWorldPosition);
+            Movement.singleton.SetNewTarget(mouseWorldPosition);
         }
     }
 

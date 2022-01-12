@@ -64,20 +64,58 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\BlitUtility.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\BlurType.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\CameraUtility.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\CustomTargetBlitter.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\DOTween support\DOTweenEPO.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\KeywordsUtility.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\OnPreRenderEventTransferer.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\Outlinable.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\OutlineEffect.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\OutlineParameters.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\OutlineTarget.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\Outliner.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\PipelineAssetUtility.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\RenderTargetUtility.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\RendererFilteringUtility.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\SerializedPass.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\TargetsHolder.cs" />
+    <Compile Include="Assets\Resources\Easy performant outline\Scripts\URPOutlineFeature.cs" />
+    <Compile Include="Assets\Resources\Fantasy UI\Samples\IconPreview.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Player\MouseManipulationOnScreen.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\Movement.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\Fills\ColorFill.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\OutlineMask.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\PartialBlit.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\ClearStencil.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\TransparentBlit.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\Fills\Interlaced.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\Fills\Fresnel.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\Blur.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\FinalBlit.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\Fills\Dots.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\Fills\EmptyFill.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\Fills\FillMask.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
-    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
-    <None Include="Assets\unity-chan!\Unity-chan! Model\Art\Stage\Shader\AlphaMask.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\BasicBlit.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\Dilate.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\MiskCG.cginc" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\Outline.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\EdgeDilate.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+    <None Include="Assets\Resources\Easy performant outline\Resources\Easy performant outline\Shaders\ZPrepass.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
